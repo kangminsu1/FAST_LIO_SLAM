@@ -51,12 +51,12 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   pcl_ros
   tf
-  livox_ros_driver
   message_generation
   eigen_conversions
 )
 
 find_package(Eigen3 REQUIRED)
+# set(EIGEN3_INCLUDE_DIR /home/son/packages/eigen-3.3.9)
 find_package(PCL 1.8 REQUIRED)
 
 message(Eigen: ${EIGEN3_INCLUDE_DIR})
